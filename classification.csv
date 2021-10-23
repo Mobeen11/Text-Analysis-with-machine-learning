@@ -1,0 +1,659 @@
+label,text
+finance,Income Statement The aggregate cost of goods produced and sold and services rendered during the reporting period 
+finance,Income Statement A component of OpEx representing the aggregate costs incurred in a planned search or critical investigation aimed at discovery of new knowledge with the hope that such knowledge will be useful in developing a new product or service 
+finance,Income Statement Amount of the cost of borrowed funds accounted for as interest expense 
+finance,Income Statement Amount of current income tax expense benefit and deferred income tax expense benefit pertaining to continuing operations 
+finance,Income Statement Income statement item reflecting dividend payments to preferred stockholders Subtracted from Net Income to Parent NetInc to obtain Net Income to Common Stockholders NetIncCmn 
+finance,Income Statement The amount of net income loss for the period due to common shareholders Typically differs from NetInc to the parent entity due to the deduction of PrefDivIS 
+finance,Income Statement Earnings per share as calculated and reported by the company Approximates to the amount of NetIncCmn for the period per each SharesWA after adjusting for ShareFactor 
+finance,Income Statement Earnings per diluted share as calculated and reported by the company Approximates to the amount of NetIncCmn for the period per each SharesWADil after adjusting for ShareFactor 
+finance,Cash Flow Statement A component of NCFF representing the net cash inflow outflow from issuance repayment of debt securities 
+finance,Cash Flow Statement A component of NCFF representing dividends and dividend equivalents paid on common stock and restricted stock units 
+finance,Cash Flow Statement A component of Net Cash Flow NCF representing the amount of increase decrease from the effect of exchange rate changes on cash and cash equivalent balances held in foreign currencies 
+finance,Balance Sheet A component of Assets representing the amount of currency on hand as well as demand deposits with banks or financial institutions 
+finance,Balance Sheet A component of Assets representing tax assets and receivables 
+finance,Balance Sheet A component of Assets representing trade and non trade receivables 
+finance,Balance Sheet A component of Liabilities representing trade and non trade payables 
+finance,Balance Sheet A component of Liabilities representing outstanding tax liabilities 
+finance,Balance Sheet The non current portion of Debt reported if the company operates a classified balance sheet that segments current and non current liabilities 
+finance,Metrics Earnings Before Tax is calculated by adding TaxExp back to NetInc 
+finance,Income Statement Earnings Before Interest and Tax is calculated by adding TaxExp and IntExp back to NetInc 
+finance,Metrics The exchange rate used for the conversion of foreign currency to USD for non US companies that do not report in USD 
+finance,Income Statement Aggregate dividends declared during the period for each split adjusted share of common stock outstanding Includes spinoffs where identified 
+finance,Metrics The value of tangibles assets calculated as the difference between Assets and Intangibles 
+finance,Metrics Return on equity measures a corporation s profitability by calculating the amount of NetIncCmn returned as a percentage of EquityAvg 
+finance,Metrics Return on assets measures how profitable a company is NetIncCmn relative to its total assets AssetsAvg 
+finance,Metrics Free Cash Flow is a measure of financial performance calculated as NCFO minus CapEx 
+finance,Metrics Return on Invested Capital is ratio estimated by dividing EBIT by InvCapAvg InvCap is calculated as Debt plus Assets minus Intangibles minus CashnEq minus LiabilitiesC Please note this calculation method is subject to change 
+finance,Income Statement Aggregate revenue Revenue less cost of revenue CoR directly attributable to the revenue generation activity 
+finance,Metrics Gross Margin measures the ratio between a company s GP and Revenue 
+finance,Metrics Measures the ratio between a company s NetIncCmn and Revenue 
+finance,Metrics Measures the ratio between a company s EBITDA and Revenue 
+finance,Metrics The percentage of earnings paid as dividends to common stockholders Calculated by dividing DPS by EPSUSD 
+finance,Metrics Measures the ratio between EV and EBITDAUSD 
+finance,Metrics Measures the ratio between EV and EBITUSD 
+finance,Metrics Measures the ratio between MarketCap and NetIncCmnUSD 
+finance,Metrics An alternative to PE representing the ratio between Price and EPSUSD 
+finance,Metrics Sales per Share measures the ratio between RevenueUSD and SharesWA as adjusted by ShareFactor 
+finance,Metrics Measures the ratio between MarketCap and RevenueUSD 
+finance,Metrics Measures the ratio between MarketCap and EquityUSD 
+finance,Metrics Measures the ratio between Liabilities and Equity 
+finance,Metrics Dividend Yield measures the ratio between a company s DPS and its Price 
+finance,Metrics Working capital measures the difference between AssetsC and LiabilitiesC 
+finance,Metrics Free Cash Flow per Share is a valuation metric calculated by dividing FCF by SharesWA and ShareFactor 
+finance,Metrics Measures the ratio between Equity and SharesWA as adjusted by ShareFactor 
+finance,Metrics Measures the ratio between Tangibles and SharesWA as adjusted by ShareFactor 
+finance,Entity The Report Period represents the end date of the fiscal period 
+finance,The date the form was filed with the SEC 
+finance,The name of the security issuer 
+finance,The name of the owner 
+finance,Is the owner is an officer of the company the officer s title is provided 
+finance,Is the owner a Board Director Y es or N o 
+finance,Is the owner an officer of the company Y es or N o 
+finance,Does the owner hold ten percent or more of the class of security Y es or N o 
+finance,The number of shares owned before the transaction 
+finance,The number of shares transacted 
+finance,The number of shares owned following the transaction 
+finance,The transaction price per share 
+finance,The value of the transaction 
+finance,The title of the class of security 
+finance,Is the ownership held D irectly or I ndirectly 
+finance,The investor name is a unique identifier for the institutional investor 
+finance,The available options to filter the SecurityType field are as follows SHR Common Shares FND Fund Units CLL Call Options PUT Put Options WNT Warrants DBT Debt PRF Preferred Shares UND Unidentified Security Type
+finance,The calendar date field represents the last day of the calendar quarter 
+finance,The total USD value of the current line item 
+finance,The number of units in the current line item 
+finance,The imputed price per unit of the current line item 
+finance,The name of the issuer 
+finance,The number of shareholders 
+finance,The number of call holders 
+finance,The number of put holders 
+finance,The number of warrant holders 
+finance,The number of debt holders 
+finance,The number of preferred stock holders 
+finance,The number of fund holders 
+finance,The number of unidentified security type holders 
+finance,The total number of share units held 
+finance,The total number of call units held 
+finance,The total number of put units held 
+finance,The total number of warrant units held 
+finance,The total number of debt units held 
+finance,The total number of preferred stock units held 
+finance,The total number of fund units held 
+finance,The total number of unidentified security type units held 
+finance,The total value of share units held 
+finance,The total value of call units held 
+finance,The total value of put units held 
+finance,The total value of warrant units held 
+finance,The total value of debt units held 
+finance,The total value of preferred stock units held 
+finance,The total value of fund units held 
+finance,The total value of unidentified security type units held 
+finance,The total value of all security types held 
+finance,The percentage that the TotalValue of this line item constitutes of all institutional holdings for this quarter 
+finance,The number of distinct share holdings held by the institution 
+finance,The number of distinct call holdings held by the institution 
+finance,The number of distinct put holdings held by the institution 
+finance,The number of distinct warrant holdings held by the institution 
+finance,The number of distinct debt holdings held by the institution 
+finance,The number of distinct preferred stock holdings held by the institution 
+finance,The number of distinct fund holdings held by the institution 
+finance,The number of distinct unidentified security types held by the institution 
+finance,The trade date of the price observations 
+finance,The opening share price adjusted for stock splits and stock dividends 
+finance,The high share price adjusted for stock splits and stock dividends 
+finance,The low share price adjusted for stock splits and stock dividends 
+finance,The open share closing adjusted for stock splits and stock dividends 
+finance,The traded volume adjusted for stock splits and stock dividends 
+finance,The dividends per share unit adjusted for stock splits and stock dividends Includes spinoffs where identified 
+finance,The closing share price not adjusted for stock splits and stock dividends 
+finance,The last date at which this line item was updated typically used to filter date to be retrieved for syncing to local records 
+finance,The date of the corporate action 
+finance,The available actions in this table are acquisitionby acquisitionof bankruptcyliquidation delisted initiated listed mergerfrom mergerto regulatorydelisting spinoff spunofffrom split tickerchangefrom tickerchangeto and voluntarydelisting 
+finance,Where the action is acquisitionby acquisitionof mergerfrom mergerto regulatorydelisting voluntarydelisting or bankruptcyliquidation this field represents the final market cap of the acquired merged company or delisted company Where the action is spinoff or spunofffrom this field represents the ratio of shares issued to shareholder s of the former parent company 
+finance,Where the action is tickerchangeto this field represents the ticker that has been changed to Where the action is tickerchangefrom this is the ticker that has been changed from Where the action is acquisitionby or mergerto this is the remaining company s ticker Where the action is acquistionof or mergerfrom this is the acquired or merged company s ticker Where the action is spinoff this is the former parent company s ticker Where the action is spunofffrom this is the spunoff company s ticker 
+finance,The name of the contra issuer associated with the contra ticker 
+finance,The trade date of the price observations used in determining MarketCap PE PS etc 
+finance,Measures the ratio between EV and EBITUSD EBITUSD is derived from the most recent SEC form 10 filings 
+finance,Measures the ratio between EV and EBITDAUSD EBITDAUSD is derived from the most recent SEC form 10 filings 
+finance,Measures the ratio between MarketCap and EquityUSD EquityUSD is sourced from the most recent SEC form 10 filing 
+finance,Measures the ratio between MarketCap and NetIncCmnUSD NetIncCmnUSD is sourced from the most recent SEC form 10 filings 
+finance,Measures the ratio between MarketCap and RevenueUSD RevenueUSD is sourced from the most recent SEC form 10 filings 
+finance,EventCode to Title mapping for EVENTS table 
+finance,The date of the form 8 SEC filing 
+finance,Each type of event is assigned a 2 digit numeric code which are described in this INDICATORS table where the table field equals EVENTCODES 
+finance,The database table which the ticker is featured in Examples are SF1 or SEP 
+finance,
+finance,The action date 
+finance,The available actions in this database are current added and removed 
+finance,The contra ticker is the opposing ticker entry It represents the ticker that has been removed where the action added and the ticker that has been added where the action removed 
+finance,The name of the contra issuer 
+finance,Placeholder for notes and additional information regarding additions to and removals from the S P500 
+finance,The database table which the ticker is featured in Examples are SF1 or SEP 
+finance,The permaticker is a unique and unchanging identifier for an issuer in the dataset which is issued by Sharadar 
+finance,Is the security delisted Y es or N o 
+finance,A security identifier Space delimited in the event of multiple identifiers 
+finance,The SIC sector is based on the SIC code and the division tabled here 
+finance,The SIC industry is based on the SIC code and the industry tabled here 
+finance,Not currently active coming in a future update 
+finance,Industry classifications based on the SIC code and classifications by Fama and French here 
+finance,Sharadar s sector classification based on SIC codes in a format which approximates to GICS 
+finance,Sharadar s industry classification based on SIC codes in a format which approximates to GICS 
+finance,The company functional reporting currency for the SF1 Fundamentals table or the currency for EOD prices in SEP and SFP 
+finance,The company location as registered with the Securities and Exchange Commission 
+finance,The date that the ticker was first added to coverage in the dataset 
+finance,The date of the first price observation for a given ticker Can be used as a proxy for IPO date Minimum value of 1986 01 01 for IPO s that occurred prior to this date Note this does not necessarily represent the first price date available in our datasets since our end of day price history currently starts in December 1998 
+finance,The most recent price observation available 
+finance,The first financial quarter available in the dataset 
+finance,The last financial quarter available in the dataset 
+finance,The URL pointing to the SEC filings which also contains the Central Index Key CIK 
+finance,The URL pointing to the company website 
+health,Diagnosis specific malignancies available for evaluation included ALL acute myeloid leukaemia AML Hodgkin s disease NHL rhabdomyosarcoma neuroblastoma retinoblastoma OSTEOSARCOMA Wilms tumour RETINOBLASTOMA Ewings sarcoma central nervous system CNS tumours and hepatoblastoma 
+health,Acute steady state moderate exercise significantly altered circulating IgE concentrations in volunteers with known ALLERGY while IgE concentrations in NON ALLERGY sufferers did not change 
+health,SALMETEROL prevented EXERCISE INDUCED ASTHMA in all 13 children studied at 1 5 and 9 hours 
+health,The patients showed the characteristic facies of the CORNELIA DE LANGE SYNDROME with SYNOPHRYS long curly eyelashes and small upturned nose and physical features including generalized hirsutism monodactyly syndactyly and clinodactyly 
+health,Dyskinesias occur in the majority of patients with PARKINSON S DISEASE chronically treated with L DOPA and also occur in several nonhuman primate species after 1 methyl 4phenyl 1 2 3 6 tetrahydropyridine MPTP and L DOPA treatment 
+health,ENDOTOXEMIA was evoked by bolus injection of ESCHERICHIA COLI ENDOTOXIN 2 ng kg body weight in six healthy subjects to investigate the early kinetics of cytokine release in relation to the development of clinical and hematologic abnormalities frequently seen in gram negative septicemia 
+health,It is said that the JOINTS of the affected limb by poliomyelitis are protected from the development of OSTEOARTHRITIS
+health,During ERGONOVINE test a patient with PRINZMETAL ANGINA presented in I aVL V3 V6 ST downsloping which after a temporary phase of alternative normalization AST beat to beat in V5 progressed to ST upsloping with typical angina 
+health,A possible role of LEU in sensomotor cortex is limitation of intensity and duration of SEIZURES and prevention of STATUS EPILEPTICUS
+health,Diclofenac sodium was found to be as effective as PREDNISOLONE ACETATE for control of POSTOPERATIVE INFLAMMATION and as effective as flurbiprofen for inhibition of intraoperative miosis 
+health,This case demonstrates a typical presentation of pheochromocytoma and the need to consider PHEOCHROMOCYTOMA early in the differential diagnosis of hypertensive emergency or difficult to control HYPERTENSION
+health,Therefore although serum P III P can be a useful marker in HEPATOCELLULAR CARCINOMA it may possibly be difficult to discriminate it from benign diseases involving the LIVER and biliary tract 
+health,A chest x ray showing a large tumor like opacity in the left lower lobe and endoscopy visualizing a budding mass suggested a diagnosis of BRONCHIAL CARCINOMA in a 55 year old tobacco smoking Cambodian who consulted for HEMOPTYSIS and altered general status 
+health,Maximum velocity and amplitude of repetitive 1 per second 30 degrees saccadic eye movements were quantitatively assessed for 4 minutes before and after INTRAVENOUS EDROPHONIUM CHLORIDE as a diagnostic test for MYASTHENIA GRAVIS
+health,Taken together these data suggest that African green monkeys with SPONTANEOUSLY ELEVATED BP may be a useful experimental model for particular types of human HYPERTENSION
+health,The objective of this study is to perform a cost effective analysis of 86 patients with RHEUMATOID ARTHRITIS in therapy with ADALIMUMAB 40 mg every other week and etanercept 50 mg week for two years in a population of patients observed in clinical practice 
+health,AZATHIOPRINE is an immunosuppressive drug that is used to treat RHEUMATOID ARTHRITIS
+health,The therapeutic results of Lp TAE transcatheter arterial embolization in the presence or absence of Gelfoam particles preceded by the infusion of a mixture of lipiodol and an anticancer drug via the proper hepatic artery or DSM TAE transcatheter arterial embolization with degradable starch microspheres and the arterial injection of anticancer drugs via the hepatic artery combined with HYPERTHERMIA were evaluated in 30 patients with HEPATOCELLULAR CARCINOMA HCC 5 subjects with hepatic cholangiocarcinoma and 22 patients with metastatic liver carcinoma 
+health,Thus the present data support the hypothesis that the therapeutic effects of CLOZAPINE in this primate model and perhaps in SCHIZOPHRENIA may be related at least in part to the restoration of DA tone in the prefrontal cortex 
+health,The incidence of SYMPTOMATIC URINARY TRACT INFECTION also decreased during treatment with METHENAMINE HIPPURATE
+health,trial Lancet Acupuncture in patients with osteoarthritis of the knee a randomised trial New England Journal of Medicine Glucosamine chondroitin sulfate and the two in combination for painful knee osteoarthritis Osteoarthritis and Cartilage A randomized placebo controlled cross over study of ginger extracts and ibuprofen in osteoarthritis Rheumatic Diseases Clinics of North America Homeopathy and rheumatic disease Rheumatology Oxford A randomized double blind placebo controlled trial of GLUCOSAMINE SULPHATE as an analgesic in OSTEOARTHRITIS OF THE KNEE Review Alternative Medicine Review Natural treatments for osteoarthritis Arthritis and 
+health,LEPROSY hanseniasis is caused by chronic infection with MYCOBACTERIUM LEPRAE M leprae 
+health,YERSINIA PESTIS the causative agent of PLAGUE has a feature of forming multicellular aggregates at liquid air interface around the wall of glass tube 
+health,Using standardised computer assisted face to face interviews we determined and compared the prevalence of doctor diagnosed ATOPIC DISEASES hay fever asthma ATOPIC DERMATITIS in the study subjects and veterinarian diagnosed allergies in their pets 
+health,Treatment of REFRACTORY DIARRHOEA in AIDS with acetorphan and OCTREOTIDE a randomized crossover study 
+health,17of 18 women with hirsutism treated with combination therapy of FLUTAMIDE 250 mg twice daily and an oral contraceptive pill had a rapid and marked reduction in their HIRSUTISM score 
+health,These data suggest that subclinical RIBOFLAVIN DEFICIENCY may occur in adolescents and that deficiency may be related to dietary intake of RIBOFLAVIN
+health,Patients with a history of BEESTING ALLERGY may have a higher risk of a HYPERSENSITIVITY REACTION with paclitaxel treatment 
+health,With successful treatment of the patient s depression with IMIPRAMINE the tremors disappeared but slowly began again after drug noncompliance resulted in recurrence of DEPRESSION 
+health,Removal of PHEOCHROMOCYTOMA may also cure HYPERTENSION 77 
+health,The trends in tuberculin reactions of Mantoux test 2 TU performed annually before and after the diagnosis of TUBERCULOSIS shows that the risk groups consist of subjects with increasing TUBERCULIN SENSITIVITY and those susceptible to acute respiratory virus infections 
+health,When the menstrual cycle is altered FERTILITY is reduced and medical conditions such as osteoporosis and ENDOMETRIAL HYPERPLASIA can result 
+health,The term INFLAMMATORY BOWEL DISEASE IBD represents different phenotypes of the idiopathic chronic inflammatory disease of GASTROINTESTINAL TRACT
+health,In patients with internal ophthalmoplegia awareness of the possibility of PHARMACOLOGIC MYDRIASIS and correct use of TOPICAL PILOCARPINE testing can preclude the necessity for neuroradiologic and invasive diagnostic studies even in cases with atypical or complex presentations 
+health,These results suggest that the CSH induced long term inhibition of KINDLED SEIZURES is the result of an interaction between the MYOCLONIC SEIZURE and a subsequent kindled seizure 
+health,The autologous membrane bound antibodies strongly recognized cell surface antigens on four human ovarian cell lines and four surgical specimens of human OVARIAN ADENOCARCINOMA but did not react with normal human OVARIES non ovarian normal and neoplastic tissues or non ovarian human cell lines by indirect immunofluorescence assay 
+health,It might take at least 12 days when the pH of nitrite solution is lowered for the concentration of NO to reach a level sufficiently high to activate guanylyl cyclase and so it seems unlikely that naturally circulating nitrite is involved in vasodilation in ischemic tissue through its conversion into NO It is more realistic to consider that NO is produced at biologically significant concentrations from nitrite in PERSPIRATION on the SKIN
+health,The clinical features of the disease were morning stiffness pain and limitation of motion of the dorsolumbar spine in four of the five members associated with arthritis of the SMALL JOINTS OF THE HANDS in three shoulder periARTHRITIS in two and costal cartilage pain in one 
+health,The patients were enrolled into three different programmes a 14 week LEARN programme 672 patients a 16 week MOB programme for the morbidly obese 259 patients or a 20 WEEK BINGE PROGRAMME for subjects affected by BINGE EATING 137 patients 
+health,As therapeutic agents of choice in the treatment of complicated infections glycopeptide antibiotics are often preferentially used in cases of OSTEOMYELITIS an infection located in BONE and notoriously difficult to successfully manage 
+health,It has been reported that JOINT EFFUSION the excessive accumulation of joint fluid in and around the JOINT is related to temporomandibular joint TMJ disorders such as pain and disk displacement 
+health,High dose aspirin use has been associated with increased GASTROINTESTINAL BLEEDING in patients with PV
+health,of intraarticular hyaluronan in osteoarthritis of the knee Comparison of the analgesic efficacy and safety of nonprescription doses of naproxen sodium and ibuprofen in the treatment of osteoarthritis of the knee Lancet Comparison of lumiracoxib with NAPROXEN and ibuprofen in the Therapeutic Arthritis Research and Gastrointestinal Event Trial TARGET cardiovascular outcomes randomised controlled trial Pathogenesis and management of pain in OSTEOARTHRITIS Acupuncture in patients with osteoarthritis of the knee a randomised trial Assessment of upper gastrointestinal safety of etoricoxib and diclofenac in patients with osteoarthritis and rheumatoid arthritis in the Multinational Etoricoxib and Diclofenac Arthritis 
+health,The duration and severity of BA the presence of allergy determined by skin tests and the BRONCHIAL HYPERREACTIVITY to METHACHOLINE inhalation challenge were observed on the first day of study 
+health,On the other hand PRIMARY SKIN DISEASES such as PSORIASIS atopic dermatitis acune vulgaris chronic idiopathic urticaria and alopecia areata may induce psychologic features 
+health,We describe a patient with cutaneous melanosis who presented with NEUROLOGICAL SYMPTOMS due to a large PRIMARY MENINGEAL MELANOMA
+health,Fontaine R Chouinard G An open clinical trial of FLUOXETINE in the treatment of OBSESSIVE COMPULSIVE DISORDER
+health,ANTIANGINAL EFFICACY was assessed with ANGINA DIARES investigators and patients global evaluations and with treadmill exercise test during placebo run in period and after 8 weeks of the therapy 
+health,In most cases of small cell LUNG CARCINOMAS SCLC phenotypic features compatible with a NEUROENDOCRINE DIFFERENTIATION status can be identified by monoclonal MOC antibody based immunohistological procedures 
+health,A 29 year old man with a marfanoid habitus peculiar mucosal neuromas of the lips and tongue high arched palate hyperplastic CORNEAL NERVES AND HYPERTENSION was found at operation to have medullary carcinoma of the thyroid PARATHYROID HYPERPLASIA AND PHEOCHROMOCYTOMA
+health,The aim of this study was to evaluate the effect of milk supplemented with PROBIOTIC BACTERIA and fluoride on CARIES development and general health in preschool children 
+health,Adherence to a GLUTEN FREE DIET in patients with CELIAC DISEASE can lead to the correction of iron deficiency anemia and the replacement of iron stores and it can prevent the recurrence of iron deficiency 
+health,It was concluded 1 that CFI values were reduced following a minor adjustment to the fluoride concentration in drinking water 2 that dental fluorosis develops during the maturation stage of enamel development 3 that the development of DENTAL FLUOROSIS may occur over a period of 16 to 24 months commencing from 12 to 32 months following enamel secretion and 4 that Dean s index is a suitable instrument for monitoring the effects on dental fluorosis of minor adjustments to the FLUORIDE concentration in drinking water 
+health,The appearance of NONTHROMBOCYTIC PURPURA is an important clue for the diagnosis of HENOCH SCHONLEIN PURPURA HSP 
+health,SEPSIS refers to a SYSTEMIC INFLAMMATORY RESPONSE SYNDROME resulting from a microbial infection 
+health,Disturbances in tracheal MUCOUS TRANSPORT DURING VIRUS INFECTION appear to depend upon the type of virus and are most severe in influenza A and respiratory syncytial VIRUS infection 
+health,The simple hyperplasia predominates in the perimenopause while the ENDOMETRIAL CARCINOMA was the most frequent cause for METRORRHAGIA in the postmenopausal women 
+health,Ondansetron was superior to high dose metoclopramide in controlling ACUTE EMESIS and nausea and there was a significant patient preference for ONDANSETRON
+health,The types of malnutrition caused by DEFICIENCY and the most frequently encountered in the developing countries are PROTEIN CALORIE MALNUTRITION avitaminoses and mineral and iron deficiencies 
+health,A combination of various kinds of ALLERGIC REACTIONS of both the specific immediate type and of the local reaction of HYPERSENSITIVITY of the slow type plays its role in the development of acute appendicitis 
+health,Gourlay GK Kowalski SR Plummer JL et al The efficacy of transdermal fentanyl in the treatment of POSTOPERATIVE PAIN a double blind comparison of FENTANYL and placebo systems 
+health,TUBERCULOSIS was excluded by TUBERCULIN TESTING and bronchoalveolar lavage in both cases 
+health,MECHANICALLY INDUCED HYPERVENTILATION is used in the treatment of newborn infants with persistent pulmonary hypertension syndrome to induce RESPIRATORY ALKALOSIS which may attenuate their pulmonary vasoconstriction 
+health,Dunner DL Cohn JB Walshe T et al Two combined multicenter double blind studies of paroxetine and DOXEPIN in geriatric patients with major DEPRESSION
+health,Serum or ASCITES ALPHA FETOPROTEIN AFP from patients with HEPATOCELLULAR CARCINOMA and from a cord blood were analyzed by affinity electrophoresis with two lectins mixed in agarose gel in a combination of concanavalin A Con A and Lens culinaris agglutinin A LCA A or of erythroagglutinating phytohemagglutinin E PHA and Allomyrina dichotoma lectin allo A 
+health,Sixteen cirrhotic patients with SUPERIMPOSED HEPATOCELLULAR CARCINOMA in whom ASCITES was of uncertain etiology were considered separately 
+health,The efficacy and tolerability of a fixed combination of 5 mg of cilazapril and 12 5 mg of HYDROCHLOROTHIAZIDE against HYPERTENSION was evaluated in 36 patients 26 men and 10 women between 33 68 years old 
+health,Eleven patients with LEUKEMIA refractory to conventional therapy were treated with high doses of CYTARABINE 3 g m2 intravenously every 12 hours for six days followed by daunorubicin 30 mg m2 day intravenously for three days 
+health,The authors report a case of PHEOCHROMOCYTOMA revealed by a de novo appeared HYPERTENSION in a young female patient at her 3rd trimester of pregnancy 
+health,Phase III study of concurrent biochemotherapy with cisplatin vinblastine dacarbazine interleukin 2 and interferon alfa 2b versus cisplatin vinblastine and DACARBAZINE alone in patients with METASTATIC MALIGNANT MELANOMA summary last modified 10 1999 
+health,Depletion of T gamma cells from in vitro cell culture consistently and selectively increased TUBERCULIN responsiveness of T cells from patients with TUBERCULOSIS
+health,When topically applied to the eye before allergen exposure ocular sodium cromoglycate prevents many of the signs and symptoms associated with TYPE I ALLERGIC REACTIONS which includes hayfever acute allergic and chronic allergic conjunctivitis and VERNAL KERATOCONJUNCTIVITIS and giant papillary conjunctivitis 
+health,In many aspects respiratory allergies i e ALLERGIC ASTHMA and rhinitis represent the hallmarks of ALLERGY
+health,Analysis of hereditary PHEOCHROMOCYTOMA two gene tests are established detection of MULTIPLE ENDOCRINE NEOPLASIA TYPE 2 MEN 2 using mutational analysis of RET gene and detection of von Hippel Lindau syndrome using mutational analysis of VHL gene 
+health,Although this is more technically demanding for patients with haemophilia A because of the greater complexity of the FACTOR VIII GENE the recent description of X chromosome inversions as a cause of severe HAEMOPHILIA A in almost 50 of patients has led to the ready detection of these inversions in such families with associated precise carrier detection 
+health,Apoptosis and its dysregulation have been implicated in dysplastic and ineffective hematopoiesis and the neoplastic transformation of BONE MARROW in MYELODYSPLASTIC SYNDROME MDS 
+health,Physiological role and occurrence of iodine in the organism was reviewed moreover ALLERGIC REACTIONS caused by iodine containing chemicals IODINE AND TROPOMYOSINE ALLERGY
+health,EPITHELIAL OVARIAN CANCER EOC arises from the epithelial layer covering the surface of OVARIES and i p 
+health,According to an expert review POSTOPERATIVE HYPERTENSION occurs in up to 50 of patients after PHEOCHROMOCYTOMA RESECTION 29 
+health,Prognosis In most cases that begin with a small number of patches of hair loss hair grows back after a few months to a year 8 In cases with a greater number of patches hair can either grow back or progress to alopecia totalis or in rare cases universalis 8 Effects of ALOPECIA AREATA are mainly psychological loss of self image due to HAIR LOSS 
+health,The specificity of these antibodies was tested by immunoblotting with a panel of crude protein antigens from 12 bacteria causing enteric fever and ENTERIC FEVER like illness S TYPHI S paratyphi A S paratyphi B S paratyphi C S choleraesuis S enteritidis S krefeld S panama S typhimurium Escherichia coli Pseudomonas pseudomallei and Yersinia enterocolitica 
+health,BC Specific recommendation Obtain joint fluid from the affected JOINT in all cases of suspected SEPTIC ARTHRITIS
+health,Combinations of symptoms can be of value 2 or more symptoms from the triad of HEADACHE palpitations and diaphoresis were present in the majority of pheochromocytoma patients but in a smaller number of non PHEOCHROMOCYTOMA patients 
+health,After an outbreak of hepatitis in Washington D C in 1970 among a group of persons taking isoniazid to prevent TUBERCULOSIS an ISONIAZID surveillance study was conducted among 13 838 persons in 21 participating health departments 
+health,The screening usually consists of measuring thyroxin in dried blood spot specimens followed by measurement of thyrotropin if the results for THYROXIN are suggestive of HYPOTHYROIDISM
+health,An important fraction of the patients admitted to NC as well as to OC and ENTC for HEADACHE and or other complaints were found out to have MIGRAINE by means of a simple screening test 
+health,We present a rare case of an adult patient without SEIZURES who is found to have a GANGLIOGLIOMA occurring in the cerebellopontine angle 
+health,Tobramycin 0 3 dexamethasone 0 1 significantly decreased clinical signs of ocular inflammation ie blepharitis discharge conjunctivitis and TOTAL OCULAR INFLAMMATION scores when compared with TOBRAMYCIN 03 LOTEPREDNOL 05 in patients with moderate to severe blepharo keratoconjunctivitis 
+health,Nevertheless immunosuppressive therapy pulse IV methylprednisolone followed by ORAL PREDNISONE AND CYCLOPHOSPHAMIDE can be given to attempt to control INFLAMMATION in patients who develop severe renal disease 
+health,Studies have shown that SUBCUTANEOUS TERIPARATIDE 20 microg day is effective in women with POSTMENOPAUSAL OSTEOPOROSIS men with idiopathic or hypogonadal osteoporosis and patients with glucocorticoid induced osteoporosis 
+health,MASTOCYTOSIS is a heterogeneous group of disorders characterized by mast cell HYPERPLASIA IN THE BONE MARROW LIVER SPLEEN LYMPH nodes gastrointestinal tract and skin 
+health,No beta A4 amyloid plaques or CAA were found in six marmosets who were older than the injected animals in four marmosets that had not developed spongiform encephalopathy SE having been injected several years previously with HUMAN BRAIN TISSUE from three younger patients with SUSPECTED OR ATYPICAL PRION DISEASE or in 10 younger marmosets who had undergone various neurosurgical procedures 
+health,We compared the changes of non specific BRONCHIAL HYPERREACTIVITY to METHACHOLINE UNDW and exercise in 2 groups of patients with mite asthma treated with local immunotherapy LIT group 12 patients and subcutaneous immunotherapy SIT group 8 patients for 1 year 
+health,Head up tilt table testing either alone or with a graded dose infusion of ISOPROTERENOL is a useful diagnostic test for identifying persons who are susceptible to VASOVAGAL SYNCOPE
+health,We conclude that this histopathologic feature in PALMAR LICHEN NITIDUS could be the result of the superimposition of lichen nitidus on NORMAL PALMAR SKIN resulting in a picture resembling hypertrophic lichen planus 
+health,The elderly are predisposed to ADVERSE DRUG REACTIONS because of age related physiologic changes interaction of one drug with another and interaction between a DRUG and a coexisting medical condition 
+health,He took a 1 mg tablet of DOXAZOSIN daily for mild HYPERTENSION
+health,INSULIN PEPTIDE B9 23 is a major autoantigen in TYPE 1 DIABETES
+health,Atropine and pralidoxime are the most useful ANTIDOTES in the treatment of OP POISONING
+health,In 38 patients with PARKINSON S SYNDROME Madopar preparation was used L DOPA WITH PERIPHERAL DECARBOXYLASE inhibitor in 33 cases as the main drug and in 5 cases as an addition to L dopa 
+health,Quantitative counts of ferruginous bodies were performed on digests of LUNGS from 100 control and 30 LUNG CANCER patients 
+health,A case of a 43 year old woman with SEVERE SUSTAINED HYPERTENSION resistant to many antihypertensive drugs frequent HYPERTENSIVE CRISIS and symptoms suggestive of pheochromocytoma symptomatic triad is presented 
+health,A sample of 1 824 schoolchildren was randomly assigned to either the SODIUM FLUORIDE dentifrice or the stannous fluoride dentifrice and examined clinically and radiographically for DENTAL CARIES initially and after one two and three years of dentifrice usage 
+health,The presence of MICROVASCULAR PROLIFERATION leads to the histological diagnosis of GLIOBLASTOMA MULTIFORME 
+health,Serial addition to 3 or more antiepileptic drugs is less likely to lead to SEIZURE freedom for patients with difficult to treat EPILEPSY
+health,The inadequacy of the 4 aminoquinolines for protection against latent BENIGN TERTIAN MALARIA is noted and the use of PRIMAQUINE is recommended 
+health,However the patients with extensive intestinal metaplasia of the STOMACH belong to the high risk group for the GASTRIC CANCER
+health,Acute idiopathic thrombocytopenic purpura is the most common cause of thrombocytopenia in childhood and diagnosis of IDIOPATHIC THROMBOCYTOPENIC PURPURA is made clinically based on the exclusion of other causes of THROMBOCYTOPENIA 
+health,A right hemicolectomy was performed which revealed a TUBULOVILLOUS ADENOMA with HIGH GRADE DYSPLASIA located in the ascending colon and a diffuse ischemic colitis 
+health,Lacunes consist of small vascular lesions with a volume of between 2 and about 30 mm These lacunar infarctions are determined by an ISCHEMIA caused by obstructive diseases of small terminal VESSELS in the deep areas of the brain 
+health,Higuchi T Shimizu T Mori H et al Coagulation patterns of DISSEMINATED INTRAVASCULAR COAGULATION in ACUTE PROMYELOCYTIC LEUKEMIA
+health,In addition to the characterization of the degree of inflammation and fibrosis the evaluation of a LIVER BIOPSY SPECIMEN from a patient with CHRONIC HEPATITIS includes a description of all of the findings present e g steatosis bile duct changes granulomas type of inflammatory cells presence of iron and Mallory hyaline or a notation of their absence 
+health,PDGFRA PDGFRB and EGFR were immunohistochemically biochemically cytogenetically and mutationally analyzed along with the detection of their cognate ligands in 16 NEUROFIBROMATOSIS TYPE 1 NF1 related and 11 sporadic MPNSTS
+health,CASE SCENARIO A 30 year old man with ACUTE MYELOCYTIC LEUKEMIA failed to respond to induction therapy with cytosine arabinoside and idarubicin and received salvage chemotherapy with fludarabine CYTOSINE ARABINOSIDE G CSF and idarubicin 
+health,This review summarizes the current knowledge of the function of microRNAs in the developing and adult NERVOUS SYSTEM and their potential contribution to the etiology of NEUROLOGICAL DISEASES
+health,106 b Advise such women that the vaccine should only be used during PREGNANCY in rare circumstances and that efforts should be made to postpone travel to YELLOW FEVER endemic areas until after delivery 
+health,Medications associated with PPD are reviewed and the patient s use of mesalamine and BALSALAZIDE for ULCERATIVE COLITIS are deemed potential triggers given their relative similarity to aspirin a known trigger of PPD 
+health,The objective of this study was to compare the clinical and electroencephalographic features of two groups of children with BENIGN EPILEPSY of childhood with rolandic spikes those in whom seizure control was attained either without the use of medication or with a single medication group 1 and those requiring two medications for SEIZURE control group 2 
+health,1 Lindholm LH Ibsen H Dahlof B Devereux RB Beevers G de Faire U et al Cardiovascular morbidity and mortality in patients with diabetes in the LOSARTAN INTERVENTION FOR ENDPOINT reduction in HYPERTENSION study LIFE a randomised trial against atenolol 
+health,DENTAL PLAQUES were detected in all the teeth under investigation with the exception of impacted TEETH 
+health,MEDICATION OVERUSE HEADACHE usually develops insidiously and often has the features of tension type headache or chronic TENSION TYPE HEADACHE 
+health,In order to objectify the degree of dysplasia results of nuclear and cellular morphometry were compared with assessed grades of DYSPLASIA in 32 COLORECTAL ADENOMATOUS POLYPS
+health,The development of antibodies to factor VIII is a serious complication of the treatment of patients with HEMOPHILIA A We successfully induced immune tolerance in patients with such antibodies with a new treatment protocol which combined FACTOR VIII cyclophosphamide and high dose intravenous IgG followed by regular prophylactic treatment with factor VIII 
+health,In pediatric patients CUTANEOUS INVOLVEMENT is most prevalent in the form of URTICARIA PIGMENTOSA which is typically asymptomatic or minimally so with resolution by adolescence 
+health,Lipton RB Stewart WF Ryan RE et al Efficacy and safety of ACETAMINOPHEN aspirin and caffeine in alleviating MIGRAINE HEADACHE PAIN
+health,However increased drug clearance has been shown definitively for only a few DRUGS and improved outcome has not been demonstrated conclusively for any OVERDOSE
+health,The pattern of eczema can help to distinguish endogenous dyshidrosis ATOPY causes from exogenous contact irritant and ALLERGIC DERMATITIS and the common differential diagnoses psoriasis fungus infections 
+health,There is a high incidence of sciatica and of damage to the pelvic floor musculature but although the PAIN has features consistent with a NEURALGIA its cause is unknown 
+health,The control strains exhibited considerable sensitivity to ofloxacin the antibiotic of choice for treating UNCOMPLICATED GONORRHEA as well as SPECTINOMYCIN and ceftriaxone 
+health,Hence Balb c mice can be used as an experimental model in CARIES research provided that great care is taken in selecting and storing the BACTERIA
+health,Untreated ACETABULAR DYSPLASIA following treatment for DEVELOPMENTAL DYSPLASIA OF THE HIP DDH leads to early degenerative joint disease 
+health,Lower fracture risk by arranging for home safety assessment and devices to improve gait stability and by recommending tai chi or other balance exercises Arrange periodic ophthalmologic screening for cataracts posterior subcapsular and glaucoma to detect vision loss Anticipate reactivation of TUBERCULOSIS and obtain a PPD SKIN TEST before beginning high dose steroid therapy Recommend dietary modification to avoid weight gain and to monitor for hyperglycemic symptoms 
+health,GVHD PROPHYLAXIS was done with cyclosporine CYA METHOTREXATE AND PREDNISONE PDN 
+health,In the presence of extracellular Ca 2 simultaneous exposure to TDI and methacholine led a higher level of Ca 2 c compared to SINGLE METHACHOLINE STIMULATION that might explain that TDI induces BRONCHIAL HYPERREACTIVITY to methacholine 
+health,Diseases associated to Vitamin D deficiency rickets in children and osteomalacia or osteoporosis in adults and autosomal recessive forms of INHERITED RICKETS illustrate the key role of VITAMIN D in calcium homeostasis and bone metabolism 
+health,Human alpha fetoproteins were purified from umbilical cord serum and from ASCITES FLUID of a patient with HEPATOMA by affinity chromatography and their chemical compositions and terminal sequences were compared 
+health,In rats with a coronary occlusion of 6 weeks duration RAMIPRIL administration significantly reduced infarct size and prevented the development of LEFT VENTRICULAR HYPERTROPHY
+health,By contrast CHRONIC GRANULOCYTIC LEUKEMIA CELLS as well as normal BONE MARROW CELLS lymphocytes and monocytes contain predominantly low molecular weight less than 95 kDa tyrosine kinase substrates 
+health,It is accepted that ALLERGY is not the sole cause of asthma but nonetheless HYPERSENSITIVITY TO ENVIRONMENTAL ALLERGENS is a significant triggering factor in most countries of the world 
+health,We have established a pre operative diagnosis in four cases of non secretory gastric carcinoid of the body and fundus presenting as MULTIPLE POLYPS in three patients and a single POLYP MASS in the fourth patient 
+health,ARTHRITIS developed in all JOINTS in which the prosthesis elongated or broke 
+health,The objective of the present study was to investigate the interaction between a variation in the 5 HTTLPR and family environment in relation to smoking habits NICOTINE DEPENDENCE and NICOTINE AND COTININE LEVELS in hair samples 
+health,This paper presents the results of a survey of the hypertensive patient population in a university family medicine practice to determine health beliefs patient perceptions of the severity of their condition stated levels of compliance to DRUG REGIMENS frequency of DRUG SIDE EFFECTS and frequency of physician discussions of drug side effects and diet 
+health,RADIOFREQUENCY INTERSTITIAL HYPERTHERMIA has been used for PERCUTANEOUS ABLATION OF HEPATOCELLULAR CARCINOMA under ultrasound guidance in local anesthesia 
+health,In one group of four pigs sensitive to MALIGNANT HYPERTHERMIA MHS a dose response to INTRAVENOUS DANTROLENE was determined by quantitation of toe twitch tension 
+health,These results showed that high LAPTM4B expression was associated with progression of ovarian carcinoma and correlated with UNFAVORABLE CLINICAL OUTCOME suggesting that LAPTM4B may be a clinically useful prognostic indicator for OVARIAN CARCINOMA
+health,The mutual clinical symptom was a CUTANEOUS PHOTOSENSITIVITY which is a major symptom in PORPHYRIA CUTANEA TARDA and a facultative one in porphyria variegata 
+health,Ten patients were positive for antibodies to the HUMAN IMMUNODEFICIENCY VIRUS HIV three were negative for antibodies to the HUMAN IMMUNODEFICIENCY VIRUS and ten refused testing 
+health,Antibodies modified on the oligosaccharides with either a peptide labeled with iodine 125 or a DIETHYLENETRIAMINEPENTAACETIC ACID chelate with indium 111 localize into target TUMORS more efficiently than the same antibody radiolabeled on either tyrosines or lysines 
+health,However in patients with VARIANT ANGINA a small dose of ergonovine produced a percentage of change in diameter of 39 8 15 3 at the site of spastic occlusion included by a larger dose of ERGONOVINE compared with that of 7 0 11 9 in the remaining non spastic coronary arteries p less than 0 05 
+health,Prochlorperazine was more effective than promethazine in uncomplicated nausea and VOMITING in the emergency department Keywords Prochlorperazine PROMETHAZINE Treatment emergency 
+health,30 Efficacy in the acute treatment of mood episodes has yet to be fully established 31 but is considered a first line agent by the APA for the management of acute depressive episodes in patients with bipolar disorder and an alternative to LITHIUM valproic acid or divalproex in the management of patients with rapid cycling BIPOLAR DISORDER particularly in those with the bipolar 2 form of rapid cycling 
+health,Forty one 30 1 women had MILD DYSPLASIA CIN 1 21 15 4 had MODERATE DYSPLASIA CIN 2 and 17 12 5 had severe dysplasia CIN 3 
+health,Fifty non selected melanomas comprising ten superficial spreading melanomas five exhibiting a radial growth phase and five a VERTICAL GROWTH PHASE ten primary NODULAR MELANOMAS 30 melanoma metastases and 16 naevi were investigated by direct sequencing analysis of the AP 2alpha and c kit genes and by immunohistochemistry for the respective proteins 
+health,BONE METASTASES cause severe pain PATHOLOGICAL FRACTURES and hypercalcaemia and thus are a significant clinical problem 
+health,The principal underlying concepts are a children with medically refractory infantile spasms may have an area of cortical defect called the zone of cortical abnormality that causes the seizures and b INFANTILE SPASMS are usually generalized SEIZURES 
+health,C Specific recommendation Consider referral to a rheumatologist for diagnostic consultation for CPPD disease pseudogout in patients with Inflammatory arthritis Osteoarthritis that appears to have an inflammatory component OSTEOARTHRITIS THAT INVOLVES JOINTS that are not usually affected by OSTEOARTHRITIS Consider referral to other specialists for patients with signs and symptoms of other underlying diseases such as Hemochromatosis Hyperparathyroidism Acromegaly See module Osteoarthritis 
+health,MINOCYCLINE IS A TETRACYCLINE DERIVATIVE mainly used in the treatment of ACNE VULGARIS in young persons 
+health,The purpose of the present study is to investigate whether an ethnic difference exists in the incidence of RENAL OSTEODYSTROPHY between Asian and Western countries in END STAGE RENAL DISEASE ESRD patients 
+health,On cytology it was found that cancer cells in the ascites from OVARIAN MUCINOUS ADENOCARCINOMAS were HNF4 alpha positive but tumor cells in ASCITES from other types of ovarian carcinomas were negative for HNF4 alpha 
+health,HDGF was more highly expressed in the lungs of IDIOPATHIC PULMONARY FIBROSIS chiefly in the epithelial cells than in control nonfibrotic LUNGS 
+health,161 For pyrimethamine dosages of 25 50 mg once daily given with CLINDAMYCIN or sulfadiazine for SECONDARY PROPHYLAXIS OF TOXOPLASMOSIS 10 25 mg once daily 
+health,It is suggested that in any case of PERSISTENT UNEXPLAINED PAIN of the wrist or clinical symptoms resembling those of tenosynovitis OSTEOID OSTEOMA OF THE STYLOID process of the radius or of the carpal bones should also be included in the differential diagnosis 
+health,The evidence for modes of action of IBUPROFEN are considered in relation to its actions in controlling INFLAMMATION pain and fever as well as the adverse effects of the drug 
+health,Diabetic ketoacidosis diagnosis DIABETIC KETOACIDOSIS treatment HYPERGLYCEMIC HYPEROSMOLAR NONKETOTIC COMA and maintenance treatment after hyperglycemic crisis 
+health,DERMATITIS resulting from irritation or sensitization of the SKIN by urushiol the toxic resin of the Rhus Toxicodendron family of plants 
+health,The use of intermediate and high purity FACTOR VIII products in the treatment of VON WILLEBRAND DISEASE 
+health,Evidence A retrospective study showed that the nature of the COLONIC ISCHEMIA i e SPONTANEOUS ISCHEMIC COLITIS versus ischemia related to shock from other disease is predictive of mortality 
+health,51 The identification of neurotransmitter pathways involved in chemotherapy INDUCED NAUSEA AND VOMITING led to development of potent ANTIEMETICS such as the serotonin antagonists ondansetron and granisetron 
+health,Furthermore histological analyses verified significant HEPATOCELLULAR NECROSIS as well as enhanced myeloperoxidase staining in these LIVER specimens 
+health,CLONIDINE was effective for reducing TAMOXIFEN ASSOCIATED HOT FLASHES in postmenopausal women with breast cancer Keywords Breast neoplasms Hot flashes Tamoxifen ACP Journal Club 
+health,When tolerant rats are later allowed to drink milk from a bottle in AN UNINTOXICATED STATE TOLERANCE IS LOST EVEN when drug exposure is held constant by ADMINISTRATION OF THE DRUG AFTER THE TEST
+health,HRT is contraindicated in women who smoke or in women with a history of an ESTROGEN DEPENDENT BREAST CANCER endometrial cancer THROMBOEMBOLIC DISEASE acute liver disease and vaginal bleeding of unknown cause 
+health,26 Brucellosis Treatment of BRUCELLOSIS caused by BRUCELLA MELITENSIS 
+health,1 Livelli FD Jr Johnson RA McEnany MT Sherman E Newell J BLOCK PC et al Unexplained in hospital FEVER following cardiac surgery 
+health,Myoclonic epilepsy with ragged red fibers MERRF This is a progressive disease characterized by uncontrolled MUSCLE CONTRACTIONS MYOCLONIC SEIZURES dementia ataxia and myopathy which shows RAGGED RED FIBERS indicating mitochondrial proliferation with specialized stains when biopsied 
+health,POSTINFLAMMATORY HYPERPIGMENTATION pityriasis rosea lichen planus fixed drug eruption Addison disease pinta syphilis macular amyloidosis HEMOCHROMATOSIS and argyria must be distinguished from EDP 
+health,Patients with PHN experience a continuous burning DERMATOMAL PAIN on which brief lancinating pains may be superimposed 
+health,Again it is easier to inform and instruct parents once they have been reassured that their child s FEBRILE SEIZURE does not mean that he or she has EPILEPSY
+health,Organomegaly may reflect a failure in substrate degradation resulting in substrate accumulation within the organ cells eg HEPATOMEGALY in hepatic forms of GSD and many lysosomal storage diseases cardiomegaly in GSD TYPE II
+health,â Rewarming may unintentionally increase DRUG CONCENTRATIONS producing DRUG TOXICITY
+health,COMPLEX REGIONAL PAIN SYNDROME sometimes INVOLVES SYMPATHETICALLY MAINTAINED PAIN
+health,Common features of TTP and HUS include microangiopathic hemolytic anemia THROMBOCYTOPENIA and the presence of platelet fibrin thrombi in the small vessels 
+health,Other conditions that cause PANCYTOPENIA include hypoplastic myelodysplastic syndrome acute leukemia MEGALOBLASTOSIS and large granular lymphocytic leukemia 
+health,â Avoid using PODOPHYLLIN podophyllotoxin and imiquimod during PREGNANCY
+health,BACKGROUND Quinine is only FDA approved for the treatment of UNCOMPLICATED MALARIA caused by the parasite PLASMODIUM FALCIPARUM primarily in travelers returning from malaria endemic areas 
+health,28 CYTOMEGALOVIRUS Although CYTOMEGALIC INCLUSION DISEASE of infants was recognized as a clinical entity at the turn of the 20th century the etiologic agent CMV was not isolated until the mid 1950s
+health,91 93 LONG TERM LEAD EXPOSURE can result in chronic tubulointerstitial nephritis and renal insufficiency hypertension and SATURNINE GOUT from reduced renal excretion of uric acid 
+health,CONCLUSION In patients with atrial fibrillation dabigatran 150 mg twice daily reduced risk for STROKE or systemic embolism more than WARFARIN and had similar rates of major hemorrhage 
+health,This study excluded the 25 to 35 of patients with MIGRAINE who usually become severely incapacitated by the headache and the indeterminate number of persons who develop rebound HEADACHE that is often attributed to the overenthusiastic use of nonprescription drugs that contain caffeine 1 2 
+health,182 183 184 185 188 189 190 191 192 194 b Risk of major congenital malformations is substantially increased with use of VALPROIC ACID compared with other antiepileptic drugs during PREGNANCY
+health,Ectopic Pregnancy Consider the possibility of ectopic pregnancy if PREGNANCY or severe abdominal pain occurs in women using MEDROXYPROGESTERONE CONTRACEPTION 
+health,Low dose MORPHINE may blunt the medullary response to CO 2 retention or O 2 decline reducing DYSPNEA and decreasing anxiety without causing significant respiratory depression 
+health,Inflammation of the NASAL MUCOUS MEMBRANE marked by hypertrophy of the MUCOUS MEMBRANE of the turbinates and the septum 
+health,These agents have an impact on the duration of INFECTION with either INFLUENZA A OR B virus 
+health,Eclampsia is unexplained generalized SEIZURES in patients with preECLAMPSIA 
+health,Infections produce a typical coryzal illness that is indistinguishable from COLDS caused by other VIRUSES
+health,CROHN S DISEASE Presenting symptoms can include DIARRHEA with or without blood fever weight loss fatigue and abdominal pain History chronicity of symptoms and colonoscopic exam with biopsy may differentiate the disorders 
+health,i CAMPYLOBACTER INFECTIONS Treatment of infections caused by CAMPYLOBACTER
+health,Symptoms and Signs SCHISTOSOME DERMATITIS is a pruritic papular rash where the cercariae penetrate the skin see also Dermatitis Caused by AVIAN AND ANIMAL SCHISTOSOMES below in previously sensitized people 
+health,ANAPLASTIC ASTROCYTOMAS are characterized by NUCLEAR ATYPIA and mitotic activity 
+health,Uses Staphylococcal and STREPTOCOCCAL INFECTIONS Treatment of serious infections caused by susceptible staphylococci Streptococcus pneumoniae and other STREPTOCOCCI
+health,Evidence â POSTMENOPAUSAL BLEEDING is the most frequent presenting symptom of ENDOMETRIAL CARCINOMA 35 
+health,To investigate the mechanism of coronary spasm we compared the action of acetylcholine with that of ERGONOVINE in 11 patients with VASOSPASTIC ANGINA and in 15 patients with chest pain group 2
+health,If islet cell tolerance could be re induced a major clinical hurdle to curing DIABETES by ISLET CELL NEOGENESIS may be overcome 
+health,Kullavanijaya P Reangchainam S Ungpakorn R Randomized single blind study of efficacy and tolerability of TERBINAFINE in the treatment of TINEA CAPITIS
+health,Wan S Quinlan DJ Agnelli G et al Thrombolysis compared with HEPARIN for the initial treatment of PULMONARY EMBOLISM
+health,This report is of the successful treatment of a patient with multiply DRUG RESISTANT VISCERAL LEISHMANIASIS with a commercially prepared formulation of LIPOSOMAL AMPHOTERICIN B L AmB AmBisome Vestar San Dimas California USA 
+health,Fixed dose oral ximelagatran vs adjusted dose warfarin in nonvalvular atrial fibrillation requiring long term anticoagulation therapy at mean 20 months Outcomes Event rate per Difference patient y 95 CI Ximelagatran WARFARIN Any stroke ischemic or hemorrhagic 1 6 1 2 0 45 0 13 to 1 0 or SYSTEMIC EMBOLISM MYOCARDIAL INFARCTION 1 0 1 4 0 4 0 9 to 0 2 
+health,PILOCARPINE may be prescribed to treat XEROSTOMIA
+health,title A placebo controlled double blind study of the efficacy and safety of ARIPIPRAZOLE in patients with ACUTE BIPOLAR MANIA 
+health,Oehrberg S Christiansen PE Behnke K et alPAROXETINE in the treatment of PANIC DISORDER a randomised double blind placebo controlled study 
+health,Dismukes WE Cloud G Gallis HA et al Treatment of CRYPTOCOCCAL MENINGITIS with combination AMPHOTERICIN B and flucytosine for four as compared with six weeks 
+health,Cloud ML Enas N Offen WW et alNIZATIDINE versus placebo in ACTIVE BENIGN GASTRIC ULCER DISEASE an eight week multicenter randomized double blind comparison 
+health,1 Malik IA Moid I Aziz Z Khan S Suleman M A randomized comparison of fluconazole with AMPHOTERICIN B as empiric anti fungal agents in cancer patients with prolonged fever and NEUTROPENIA
+health,Multicenter comparison of clarithromycin and AMOXICILLIN in the treatment of ACUTE MAXILLARY SINUSITIS
+health,Treatment The current treatments include VORICONAZOLE and liposomal amphotericin B Newer findings suggest use of mild oral steroids for a longer period of time preferably for 6 9 months in ASPERGILLOSIS in pulmonary segment 
+health,Illingworth DR Mevinolin plus COLESTIPOL in therapy for SEVERE HETEROZYGOUS FAMILIAL HYPERCHOLESTEROLEMIA
+health,1 Rai KR Peterson BL Appelbaum FR Kolitz J Elias L Shepherd L et al Fludarabine compared with CHLORAMBUCIL as primary therapy for CHRONIC LYMPHOCYTIC LEUKEMIA
+health,Low dose unfractionated heparin low molecular weight heparin fondaparinux and WARFARIN have all been shown to be efficacious for VTE prevention in surgical patients 
+health,Ellis CN Fradin MS Hamilton TA et al Duration of remission during MAINTENANCE CYCLOSPORINE THERAPY for PSORIASIS relationship to maintenance dose and degree of improvement during initial therapy 
+health,A phase II single dose trial of tapentadol 25mg 200mg IBUPROFEN 400MG AND MORPHINE IR 60mg was evaluated in POST SURGERY DENTAL PAIN 
+health,Lansoprazole provided more effective and faster relief for heartburn than did omeprazole in erosive esophagitis Keywords Esophagitis HEARTBURN Lansoprazole OMEPRAZOLE ACP Journal Club 
+health,This approach has been taken with VACCINE s for mumps measles rubella and HEPATITIS B 
+health,However a placebo controlled trial failed to show benefit with FLUOXETINE in 54 patients with DEPERSONALIZATION DISORDER 
+health,INTRA ARTERIAL IODINE 131 LIPIODOL administration Efficacy demonstrated in unresectable patients those with portal VEIN THROMBUS 
+health,138 Aldosterone antagonists The aldosterone antagonists i e SPIRONOLACTONE and eplerenone are another relatively old class of drugs with new data to support use in HEART FAILURE
+health,FLUTICASONE PROPIONATE AEROSOL for the treatment of adults with MILD TO MODERATE ASTHMA
+health,In general CHONDROITIN SULFATE combined with these other agents was found to alleviate symptoms of OSTEOARTHRITIS compared to placebo 
+health,Small JG Milstein V Marhenke JD et al Treatment outcome with CLOZAPINE in tardive dyskinesia neuroleptic sensitivity and TREATMENT RESISTANT PSYCHOSIS
+health,Patients with transient risk factors for DVT eg immobilization surgery can discontinue warfarin after 3 to 6 mo Patients with nonmodifiable risk factors eg hypercoagulability spontaneous DVT with no known risk factors or recurrent DVT and patients who have had PE should take WARFARIN for at least 6 mo and probably for life unless complications occur 
+health,2 Horowitz LN Spielman SR Greenspan AM Mintz GS Morganroth J Brown R et al Use of amiodarone in the treatment of persistent and PAROXYSMAL ATRIAL FIBRILLATION resistant to QUINIDINE therapy 
+health,Beer N Gallegos I Cohen A et al Efficacy of SUBLINGUAL NIFEDIPINE in the acute treatment of SYSTEMIC HYPERTENSION
+health,104 152 Prevention of Avian INFLUENZA A VIRUS INFECTIONS Oral Dosage usually recommended for prophylaxis of seasonal influenza A AND B VIRUS INFECTIONS has been recommended 
+health,A study of 61 patients with MYELODYSPLASTIC SYNDROME and normocellular or HYPERCELLULAR BONE MARROW who received antithymocyte globulin found that 34 became transfusion independent after treatment 31 
+health,1 Sachs G Chengappa KN Suppes T Mullen JA Brecher M Devine NA et al Quetiapine with lithium or DIVALPROEX for the treatment of BIPOLAR MANIA a randomized double blind placebo controlled study 
+health,Clopidogrel decreases MI in patients treated with lytics and ASPIRIN 4 an accomplishment also claimed for the early invasive strategy with revascularization of the infarct artery 
+health,In combination with paracetamol and isometheptene it is the active ingredient of medications for MIGRAINE and vascular headaches including Epidrin and MIDRIN 
+health,â Š Fluoxetine alone at an average dose of 55 mg d was found to significantly benefit function and ALLEVIATE PAIN AND FATIGUE as compared with placebo in a double blind randomized controlled study of 60 FEMALE PATIENTS WITH FMS 99 
+health,Some patients are able to prevent FLARES with use of topical sunscreens and ORAL VITAMIN C 
+health,HYDROXYUREA in the treatment of POLYCYTHEMIA VERA a prospective study of 100 patients over a 20 year period 
+health,Montgomery SA Manceaux AFLUVOXAMINE in the treatment of OBSESSIVE COMPULSIVE DISORDER
+health,59 In addition DRONABINOL is approved for the treatment of ANOREXIA associated with weight loss in patients with AIDS starting with 2 5 mg twice daily before lunch and supper and titrating to effect and tolerability 
+health,HYOSCYAMINE is used to provide symptomatic relief to various gastrointestinal disorders including spasms peptic ulcers irritable bowel syndrome diverticulitis PANCREATITIS colic and cystitis 
+health,Austin CA Cann PA Jones TH et al Exacerbation of diarrhea and pain in patients treated with 5 AMINOSALICYLIC ACID for ULCERATIVE COLITIS
+health,In combination with PARACETAMOL and isometheptene it is the active ingredient of medications for MIGRAINE and vascular headaches including Epidrin and Midrin 
+health,Wolkow R March JS Safferrman AZ et al A placebo controlled trial of SERTRALINE treatment for PEDIATRIC OCD
+health,One randomized controlled trial RCT in children showed that MONTELUKAST plus budesonide improved ASTHMA control better than budesonide alone 1 
+health,A 1984 study on COMPLICATED INFLUENZA had found levamisole to be an effective inducer of interferon and had recommended its use in COMBINATION THERAPY for influenza 
+health,However INSULIN GLARGINE was associated with a lower incidence of SEVERE HYPOGLYCAEMIA compared with NPH insulin 
+health,Agents that have been used include albendazole METRONIDAZOLE and cotrimoxazole for MYOSITIS 
+health,A phase II single DOSE TRIAL OF TAPENTADOL 25MG 200MG ibuprofen 400mg and morphine IR 60mg was evaluated in POST SURGERY DENTAL PAIN 
+health,1 Guillevin L Cordier JF Lhote F Cohen P Jarrousse B Royer I et al A prospective multicenter randomized trial comparing steroids and pulse cyclophosphamide versus steroids and ORAL CYCLOPHOSPHAMIDE in the treatment of GENERALIZED WEGENER S GRANULOMATOSIS
+health,January 2010 Volume 152 Number 1 Therapeutics Higher dose dabigatran reduced STROKE but not major hemorrhage more than WARFARIN in atrial fibrillation 
+health,For long term therapy of CMV retinitis in patients with HIV infection Valganciclovir 900 mg p o b i d for 21 days then 900 mg p o q d for maintenance First choice For CMV retinitis and other advanced CMV INFECTIONS in immunocompromised patients FOSCARNET 90 mg kg I V b i d 
+health,Van der Willigen AH van der Hoek JCS Wagenvoort JHT et al Comparative double blind study of 200 and 400 mg ENOXACIN given orally in the treatment of ACUTE UNCOMPLICATED URETHRA GONORRHEA in males 
+health,Natalizumab plus INTERFERON BETA 1A for relapsing MULTIPLE SCLEROSIS
+health,Webster G Combination AZELAIC ACID therapy for ACNE VULGARIS 
+health,Parker PM Chao N Nademanee A et alTHALIDOMIDE as salvage therapy for chronic GRAFT VERSUS HOST DISEASE
+health,Treatment DANTROLENE SODIUM the only available medical treatment for MALIGNANT HYPERTHERMIA The current treatment of choice is the intravenous administration of dantrolene the only known antidote discontinuation of triggering agents and supportive therapy directed at correcting hyperthermia acidosis and organ dysfunction 
+health,Terrific Broth is used with GLYCEROL in cultivating recombinant strains of ESCHERICHIA COLI 
+health,Stevens RJ Andujar C Edwards CJ et alTHALIDOMIDE in the treatment of the CUTANEOUS MANIFESTATIONS OF LUPUS ERYTHEMATOSUS experience in sixteen consecutive patients 
+health,Premedication with corticosteroids is recommended before each administration of DOCETAXEL to reduce FLUID RETENTION and hypersensitive reactions 
+health,Laboratory studies of NONI S effect on TUMORS in mice include evidence for reduced growth of capillaries in tumor explants 
+health,â Š Nonsedating agents during the daytime for concurrent ALLERGIC RHINITIS or conjunctivitis noting that they may not be effective for treating itch and rash â See table Drug Treatment for ATOPIC DERMATITIS
+health,Caffeic acid and its derivative CAFFEIC ACID PHENETHYL ESTER have shown TUMOR SHRINKING PROPERTIES 
+health,Zarfin Y Koren G Perlman M Digoxin and INDOMETHACIN in preterm infants with PDA
+health,It is an ANTIOXIDANT and helps reduce FATIGUE 
+health,Association of suicide attempts with ACNE and treatment with ISOTRETINOIN retrospective Swedish cohort study
+health,Acyclovir or FAMCICLOVIR are treatments of choice for both ZOSTER and herpes simplex reactivation 
+health,2007 07 18 VITAMIN C for preventing and treating the COMMON COLD
+health,The dose of LOPRAZOLAM for INSOMNIA is usually 1 mg but can be increased to 2 mg if necessary 
+health,Some patients may require more basal insulin and a greater total daily insulin dosage to prevent PREPRANDIAL HYPERGLYCEMIA when using INSULIN ASPART than when using insulin human regular 
+health,Treatment normally consists in maintaining A GOOD HYGIENE OF THE EYE and holding WARM COMPRESSES on the affected eyelid to remove the crusts 
+health,Webster GF Berson D Stein LF et al Efficacy and tolerability of once daily tazarotene 0 1 gel versus once daily TRETINOIN 0 025 GEL in the treatment of FACIAL ACNE VULGARIS a randomized trial 
+health,GABAPENTIN was more effective than placebo for PAIN relief and improvement in sleep and quality of life 1 trial 
+health,Podzamczer D Miro JM Bolao F et al Twice weekly maintenance therapy with SULFADIAZINE PYRIMETHAMINE to prevent RECURRENT TOXOPLASMIC ENCEPHALITIS in patients with AIDS 
+health,Postoperative FONDAPARINUX VERSUS POSTOPERATIVE enoxaparin for prevention of VENOUS THROMBOEMBOLISM after elective hip replacement surgery a randomised double blind trial 
+health,A long term trial with CLOFAZIMINE in reactive LEPROMATOUS LEPROSY
+health,PHOTODYNAMIC THERAPY controls tumors by using targeted dyes and bright light to illuminate TUMORS 
+health,1 Pediatric Use Safety and efficacy of insulin lispro in fixed combination with insulin lispro protamine not established in children 165 Insulin lispro has been used in children aged 3 18 years of age with TYPE 1 DIABETES MELLITUS 1 51 74 and preliminary data suggest no unusual effects of INSULIN LISPRO therapy in adolescents receiving the drug 
+health,11 Benazepril Amlodipine Fixed combination Therapy for HYPERTENSION Oral In studies using benazepril AMLODIPINE fixed combination in dosages of benazepril hydrochloride 10 40 mg daily and amlodipine 2 5 10 mg daily BP response increased with increasing amlodipine dosage in all patient groups and increased with increasing benazepril dosage in nonblack patient groups 
+health,Antiepileptic agents often include phenytoin or carbamazepine for partial seizures valproic acid for absence seizures and any of these agents or phenobarbital with or without newer drugs such as gabapentin or LAMOTRIGINE for generalized SEIZURES
+health,In gymnastics rock climbing weight lifting and tug of war chalk now usually magnesium carbonate is applied to the hands to remove PERSPIRATION and reduce SLIPPING 
+health,SWAINSONINE S activity against TUMORS is attributed to its stimuation of macrophages cite journal 
+health,DEFLUX is injected around the ureteral opening to create a mound that stops URINARY REFLUX 
+health,METHOTREXATE followed by misoprostol may also be used to terminate early PREGNANCY
+health,13 Trichostrongyliasis Treatment of TRICHOSTRONGYLIASIS caused by TRICHOSTRONGYLUS
+health,Specifically pulmonary edema has been reported to develop in patients with PVOD when treated with agents used in PAH including epoprostenol and BOSENTAN
+health,Other Infections Pneumocystis jiroveci formerly P CARINII has essentially been eliminated by routine prophylaxis with TRIMETHOPRIM SULFAME THOXAZOLE or an alternative agent 
+health,The object of the present investigation was to identify those who among high risk patients would break through LOW DOSE HEPARIN PROPHYLAxis and develop thromboeMBOLISM AFTER MAjor abdominal surgery 
+health,Although this patient still required modafinil for daytime sleepiness after initation of sodium oxybate in some patients both excessive daytime sleepiness and CATAPLEXY are adequately controlled with just SODIUM OXYBATE 
+health,CHLORAMPHENICOL audio A broad spectrum antibiotic employed internationally for the treatment of SALMONELLOSIS ricksettsial diseases and meningitis 
+health,The clinical applicability of targeting proteasomes is exemplified by the recent FDA approval of the FIRST PROTEASOME INHIBITOR BORTEZOMIB FOR THE TREATMENT of relapsed refractory MULTIPLE MYELOMA
+health,Insulin LISPRO reduced nocturnal hypoglycemic episodes in TYPE 1 DIABETES MELLITUS when used to achieve tight glycemic control Keywords Blood glucose Diabetes mellitus insulin dependent Hypoglycemia Hypoglycemic agents Insulin 
+health,3 Resistant SCABIES Overuse and misuse of certain scabicides notably LINDANE have decreased their efficacy 
+health,TOPICAL CAPSAICIN treatment of CHRONIC POSTHERPETIC NEURALGIA
+health,Combination therapy with paricalcitol and TRANDOLAPRIL has been found to reduce fibrosis in OBSTRUCTIVE UROPATHY
+health,Comparison of ZEBRA ANTIBODY LEVELS with the degree of IMMUNODEFICIENCY CD4 cell counts CDC grouping and HIV p24 antigen positivity showed little association suggesting that induction of ZEBRA antibodies is an early event after HIV infection 
+health,Kurth MC Adler CH St Hilaire M et al et al Tolcapone improves motor function and reduces LEVODOPA requirement in patients with PARKINSON S DISEASE experiencing motor fluctuations a multicenter double blind randomized placebo controlled trial 
+InformationSystem,The key guiding principle behind the functional design of CCTNS V1 0 is to focus on the critical functionality that provides value to the police personnel at the cutting edge which in turn can improve the outcomes in the areas of Investigation of Crime and Detection of Criminals 
+InformationSystem,Citizens can register their complaints with police and then based on the evidence facts and following investigation police shall take the complaint forward The Registration module acts as an interface between the police and citizens and it eases the approach interaction and information exchange between police and complainants
+InformationSystem,The Search module of the CCTNS gives police personnel the ability to execute a basic or advanced search on cases 
+InformationSystem,The Citizen Interface module of the CCTNS acts as a conduit for the information exchange between citizens and police units personnel Citizens can use it as a tool to get information or acknowledgements from police The police in turn can use it to respond to citizens with very little turnaround time It improves overall productivity by helping citizens and police to cut short the drudgery of large amounts of paperwork 
+InformationSystem,The Navigation module of the CCTNS provides role based landing pages which help in navigating through the CCTNS application It shows information such as cases assigned alerts pending tasks etc hence helping police personnel to plan better and execute with greater efficiency 
+InformationSystem,Web Store is a new system designed for users new to the online E commerce This will be a plug and play device with its own CPU and operating system The Web Store will be a quick and easy means to setup and operate an online Web Store 
+InformationSystem,Account Management allows users to create edit and view accounts information It also allows the user to login out of the system 
+InformationSystem,Search Engine is the tool that assists the user in finding a specific item in the database It can receive search criteria find search criteria and return the results of the search 
+InformationSystem,Product Management allows sales personnel to manage the product line shown on the web site
+InformationSystem,Shopping Cart is temporary storage for customers shopping on the web Items from the inventory can be reserved in a virtual cart until the customer decides to purchase them 
+InformationSystem,Purchasing and Payment is used to approve and transfer payment from buyers when purchasing items in the cart 
+InformationSystem,System Administrator is generally the owner that takes care of maintenance for the Web Store system The administrator will be in charge of assigning privileges of accounts Suggested more than one individual can have administrator privilege to ensure advisability Full documentation will be provided to the Administrator to assist with this process 
+InformationSystem,Sales Personnel Is generally the owner of the Web Store tasked with updating inventory and product line descriptions Once added sales personnel can add delete and change descriptions pictures prices and when ready flag items for customers to buy 
+InformationSystem,Customer A customer is an individual wishing to purchase inventory from GAMMA J s Web Store The Web store will have a variety of clientele depending upon the inventory loaded on the Key When creating a new account on Web Store it will default as a customer account Later if the account needs to be upgraded the administrator can accomplish this via the administrator interface 
+InformationSystem,Web Store shall operate with the following internet browsers Microsoft Internet Explorer version 6 and 7 Netscape Communicator Version 4 and 5 
+InformationSystem,Web Store shall operate on an Intel based system with Slackware Linux 2 6 and Apache Web Server The operating system is designed by the Yoggie Corporation Although maintenance documentation will be supplied and the operating system will be tested the developers of this Web Store are not responsible for the functionality of the operating system 
+InformationSystem,The system shall use SQL based database to store inventory information 
+InformationSystem,Must use a SQL based database SQL standard is the most widely used database format Restricting to SQL allows easy of use and compatibility for Web Store 
+InformationSystem,Customers will be able to create accounts to store their profiles contact information purchase history and confirm orders This is a high priority system feature Security methods will ensure that customer accounts remain confidential and resistant to tampering 
+InformationSystem,Customers will be able to create accounts to store their customer profiles configure contact information view their purchase history and confirm orders Customers will be able to register log in and log out of their accounts Furthermore Customer profiles will also include payment information such as the ability to store credit card information and address information 
+InformationSystem,Inventory management will allow for the placement of products into multi tiered categories This is a medium priority system feature 
+InformationSystem,Customers will be able to add and store products for purchase within the shopping cart This feature is a medium priority system feature 
+InformationSystem,Customers will also be able to add products into the shopping cart The shopping cart will clearly display the number of items in the cart along with the total cost The customer will also be able to add to or remove products from the shopping cart prior to checkout and order confirmation 
+InformationSystem,Order confirmation will allow the customer to review their order after checkout prior to confirmation This is a medium priority system feature 
+InformationSystem,Customers will be able to confirm the order after checkout If the order is incorrect the customer will be able to revise and update their order The customer will then receive a confirmation email with the specific order details 
+InformationSystem,The interface will be presented to the customer in a web browser The interface must remain consistent among various web browsers and be intuitive to the customer This is a medium priority system feature 
+InformationSystem,Customers will be presented with an unambiguous interface to assist in browsing the categories and products Customers will be able to search for products matching their search criteria The interface will be compatible with all major web browsers such as Internet Explorer Mozilla Navigator Mozilla Firefox Opera and Safari 
+InformationSystem,The system will feature an API to allow customers to build custom plug ins to be able to meet their needs This is a high priority system feature as it ensures the flexibility of the system to be tailored to specific needs 
+InformationSystem,The system will implement an Application Interface to allow for various plug ins to interact with the system The plug in API will be well documented and specifications will be provided to plug in developers 
+InformationSystem,The order database of WebOrder will communicate with the account system through a programmatic interface for the billing operations
+InformationSystem,Through programmatic interface WebOrder will transmit information of items ordered by customers to the Inventory management system
+InformationSystem,The WebOrder system shall send an e mail confirmation to the customer that the items they ordered will be delivered to the shipping address along with tracking number 
+InformationSystem,The WebOrder system shall send an e mail to System Administrator regarding any technical queries from customers or sales people 
+InformationSystem,The system shall be able to acquire shipping charges in less than 2 seconds 
+InformationSystem,Customer first clicks on the button or link to initiate registration process 
+InformationSystem,System prompts the customer to fill out his her first name last name billing address shipping address email address and their password 
+InformationSystem,Customer clicks on the button or link to initiate the login process 2 System prompts the customer for his her email and password 
+InformationSystem,System validates the customer s information 
+InformationSystem,Customer clicks the button or link in order to edit the account details
+InformationSystem,Customer clicks the button or link in order to initiate logout process 
+InformationSystem,Customer clicks the button or link in order to add to the cart with specified quantity 
+InformationSystem,System prompts the Administrator to fill out first name last name username email address password and privileges of the user 
+InformationSystem,Sales Person clicks the button or link to initiate Add Product process 
+InformationSystem,Each class of users has different needs of the system The general requirements of each user class are summarized below 
+InformationSystem,The monitor temperature function receives the valid temperature and system parameters The function then goes through the process of determining temperature status After this process is done either temperature limit is exceeded or the temperature change is requested If the temperature change is requested then the determine heating cooling mode process is activated and makes a heating cooling request Some other processes that help the monitor temperature function are validate temperature change thermostat setting generate alarm and system initialization 
+InformationSystem,The system should provide warnings to the supervisor about faulty temperatures 
+InformationSystem,The displaying of the current status of the system to the supervisor should not contain excessive information which could confuse the supervisor 
+InformationSystem,The system should provide information in the form of reports to the supervisor so that the system can be run efficiently
+InformationSystem,The system shall read this file and the definitions shall be derived from the initialization data in the file 
+InformationSystem,This procedure will load these definitions into the software 
+InformationSystem,These identifiers shall be read from the initialization file and loaded into the system during the initialization process 
+InformationSystem,This is the real time operations that must react to varying degrees of readiness to full scale wartime operations such as crisis planning with the use of heterogeneous data types and sources transfer capabilities data management services 
+InformationSystem,XML Services shall be segmented COE sponsors shall adhere to compliance level requirements described
+InformationSystem,In support of training activities the data management services shall provide for the same processing as would be encountered in a production environment However access to the database may be via a training application access to the DBMS rather than from the production mission application 
+InformationSystem,A producer is an agent that contributes metadata for inclusion into an XML Registry for the purposes of ensuring maximum semantic understanding of a term as it appears in an XML document 
+InformationSystem,A consumer examines a registry to select a tag structure for reuse in one or more applications that will exchange data according to a pre defined agreement 
+InformationSystem,The purpose of the system is to provide the military services with a single command control data receipt data processing data export and dissemination system that is interoperable with the family of all present and future tactical unmanned aerial vehicles 
+InformationSystem,the system will provide a common Human Computer Interface HCI for tactical airborne platforms to simplify user operations training and facilitate seamless integration into the Services joint C4I infrastructure across all levels of interaction 
+InformationSystem,The software will provide the UAV operator the necessary tools for computer related communications mission tasking mission planning mission execution data receipt data processing limited data exploitation and data dissemination 
+InformationSystem,The software will provide a high resolution computer generated graphical user interface that enables a UAV operator trained on one system to control different types of UAVs or UAV payloads with a minimum of additional training 
+InformationSystem,The TCS will operate in an open architecture and be capable of being hosted on computers that are typically supported by the using Service 
+InformationSystem,Software developed will be Defense Information Infrastructure Common Operating Environment DII COE compliant non proprietary and the architectural standard for all future tactical UAVs
+InformationSystem,The product requires the use of a keyboard and a mouse to interface with the user It requires a graphical display of at least 800 600 resolution 
+InformationSystem,The product uses the Qt graphical library It must run with all the operating systems that Qt supports 
+InformationSystem,The users consist of anyone who wants to play a simple game who knows how to operate a computer with a beginning level player starting at age 8 up through an advanced level player who could be an adult 
+InformationSystem,The system will be user friendly with maximum master table structure with all transaction screens to have drop down selection menus to minimize data entry errors 
+InformationSystem,The structural design of the database will have sequential links with surrogate keys 
+InformationSystem,The database storage will be highly efficient to manage and avoid empty unused spaced blocked properly defragmenter on a periodic basis This efficiency will have a maximum provision to expand this program beyond the pilot period if the program requirements remain same 
+InformationSystem,the system will interface with the thumb print reader for verifying claims form used by the clients 
+InformationSystem,the system including various code generations Bar coding and Graphical User Interface etc 
+InformationSystem,The VMU operates a monitoring system including follow up with patients to monitor proper operation of the voucher scheme 
+InformationSystem,The voucher management system VMS is designed to atomize the process of Voucher Management Unit VMU to minimize the manual process to maximize the quality of the project to understand the progress and timely out come of the project to take necessary steps by the MSIU Admin team to plan for the future and to increase the quality of the STD voucher service 
+InformationSystem,The voucher management system is subdivided into following modules to make the system easy for understanding developing testing and to implement 
+InformationSystem,The client and or the partner will choose the service provider and will get treatment 
+InformationSystem,The quarantined forms will be sent back to the VSP for verification if the VSP returns the claim with satisfactory details the claims will be entered on to the system in the following month s batch 
+InformationSystem,The sales team master is for the future development of this program if this program is extended to a country wide network this master will help understand and tack sales information 
+InformationSystem,The program will take maximum care in this form and table as it become a vital transaction to be captured In this module you will see that every capture of data will be validated and checked on saving into the database 
+InformationSystem,On completion of the service the patient will provide the voucher according to the visit type and patient type client or partner the voucher will be stuck to the claim form 
+InformationSystem,The system should generate message with two option Continue Yes No while the user trying to create a new VSP with an existing name If the user press Yes the system will allow the user to enter the same if not the system wont allow the new entry to save 
+InformationSystem,The VSP Master Information screen should have a provision to enter the payment terms agreed between MSIU and VSP The system will capture following master details to fill the payment terms 
+InformationSystem,The above mentioned payment terms will help the MSIU to make the payment detail easy and also help the VSP to get their payment in timeThe system will control the payment process and terms 
+InformationSystem,The system will generate message while creating a new staff with existing name but the system will allow the user to save that new staff if its required 
+InformationSystem,The system should print a receipt document based on the information entered during claim submission 
+InformationSystem,The system will have the provision to enter any number of Syndrome Clinical Examinations Diagnosis Lab Test Drugs and Other Measures in any treatment level based on MSIU treatment master 
+InformationSystem,Personnel roles activities and responsibilities necessary to support all aspects of system should be clearly defined 
+InformationSystem,Other Systems supporting the main system should enable investigators to produce both aggregated and individual reports about affected entities and events
+InformationSystem,THe system must have the capability to capture data for any object involved in an investigation 
+InformationSystem,Travel history provides specific information to indicate when where and how subjects involved in an event traveled to a location or to multiple locations and conveyance data describes the vehicle in which the travel occurred Examples of travel history include a person s local travel as a part of their daily activities as well as the shipment of animals or plants from one country to another 
+InformationSystem,Demographic information should be collected about the investigator including their name address and contact information so that the investigator may be contacted to answer questions or to provide additional information 
+InformationSystem,The scope of the Get Real website is to provide a high school teen friendly setof web pages that are easy to navigate and at the same time provides sufficient depth and information about careers in computer science 
+InformationSystem,The goal of Get Real is to encourage more Oregon students to choose computer science and related majors eventually increasing the number of computer science graduates from Oregon universities 
+InformationSystem,A listing with links to ACM IEEE and key sub groups such as SIGGRAPH to show students the national and international strength of CS organizations Pointers should lead to student sections of these organizations
+InformationSystem,Web design conventions should be consistent with the standards and conventions used on the OUS site 
+InformationSystem,The scope of this specification is to provide interoperability for trains and staff crossing national or other borders between systems and to provide manufacturing economies of scale wherever practical 
+InformationSystem,It is also important for this specification to provide an appropriate standard for future replacement of national radio systems operating on both important internal routes and low to medium traffic rural areas It will be determined on a national basis whether different classes of service need to be defined for such routes 
+InformationSystem,The EIRENE Functional Requirements Specification defines a set of requirements which a railway radio system should comply with in order to facilitate international interoperability between national railways and manufacturing economies of scale 
+InformationSystem,The requirement shall be respected in every ETCS application The applicable requirements stated in ETCS SRS and lower level mandatory specifications shall be respected 
+InformationSystem,The system gives resolution to memorizing passwords problem Its purpose is to keep all of the user s passwords data email accounts usernames and URLs stored in a very secure encrypted database protected by a Master Password 
+InformationSystem,The system is very small so it can be easily transferred from one computer to another It provides several functionalities on the already encrypted data and the new ones to be inserted 
+InformationSystem,The database produced is protected by a Master Password only known by its inventor with no backup if lost 
+InformationSystem,Its purpose is to solve a problem that really bothers many people today when they have to choose from memorizing a lot of passwords to be secure or to use every time the same one so they won t forget it but risk be found out by others So it provides you a very secure encrypted database where you can keep inside all your passwords usernames email accounts URLs notes without any risk for others to find them 
+InformationSystem,The system consists of a database which contains data for one or more users Each user s data are divided into groups and subgroups so that they are organized in a form that serves right the user Every user has a unique Master Key which can be simple or composite and its combination opens uniquely the database 
+InformationSystem,The database can be opened and closed whenever user wants it 
+InformationSystem,Also the user can search the database using key words through a search engine provided with the software Last but not least the database can be imported and or exported from to the Internet 
+InformationSystem,Data are organized in groups and subgroups in the order that user wants and finds effective 
+InformationSystem,The feature of searching can be applied in just one group and not in the whole database if wanted 
+InformationSystem,A new entry can be added in any group or subgroup and it contains title username password URL and notes Not all fields are required for an entry An entry can be duplicated and deleted in the click of a button 
+InformationSystem,At systems website there are available language translations that can be downloaded and applied easily 
+InformationSystem,There are available generations based on character sets and based on patterns the first for generating random passwords and the second for creating passwords which require specific patterns There is also available generating passwords that follow rules which are
+InformationSystem,determined further down on this document 
+InformationSystem,users that are familiar with programming and can personalize their database by creating auto types using command line options and generally can use features and maybe expand their use by adding more functions 
+InformationSystem,administrators working on computers that support a lot of accounts and personal data for other users Using KeePass the administrator can save all data with no risk of leak to third persons 
+InformationSystem,for organizing data that have to do with lots of people and applications
+InformationSystem,When choosing to open a database a user is transferred to his documents where he navigates to find the database he wants When the database is found the master password is wanted so that the database will be unlocked Once this is done the user is free to access his data 
+InformationSystem,When a database is opened the user can access his passwords organize them into new groups and subgroups delete and add entries and so much more But when it is time for the database to close or during his working on the database he can save the changes made 
+InformationSystem,New database is saved and opens with the same master password
+InformationSystem,While working on the database the user has the option to print data from his database This can be done by selecting print When this happens a list of data types that can be printed are shown and the user can select the data to be printed 
+InformationSystem,More specifically fields that can be selected for printing are Backup entries which contain entries in the back up group password groups group tree title username password URL notes creation time last access last modification expires icon UUID and attachment 
+InformationSystem,The list of options opens with checked the fields password groups title user name password URL notes
+InformationSystem,There is the ability to search in the database for usernames groups passwords URLs notes and titles This is very useful when the user needs to find out very quickly which password is required in one account or what username he has put on another account It is not necessary to write in the search field all characters By writing just one character the database will present all data which contains it or are related with it 
+InformationSystem,There is the ability to organize data into groups and subgroups The user can create a new group or subgroups into an existing group When creating a group subgroup the user must select a name and then he can add entries into it 
+InformationSystem,When a user wants to delete an existing group subgroup he can do this by selecting Delete group subgroup from the edit menu In order for that to happen he must have chosen first a group subgroup 
+InformationSystem,The user selects a group subgroup and then he chooses find in this group from file menu Then a window appears which prompts the user to write a sequence of characters letters and numbers from one character to 200 or more After that a menu of options to choose from appears and the user can select to search for title user name password URL notes group name Search results appear in the main window 
+InformationSystem,The user can add a new entry on the database by clicking add entry on the main menu When he does this a window opens which is actually a form In this form the user completes the fields he wants He can fill in fields like group where the entry will be added title user name password repeat password URL notes expiration date and attachment file Not all fields are required for an entry to be created In fact an entry can be added with no fields at all By selecting OK the entry is created in the group selected 
+InformationSystem,The user can modify the context of an entry he already has added This can be done byselecting view edit entry In order for that to happen the user must select an entry first 
+InformationSystem,the form user filled in when he created or last modified the entry open 
+InformationSystem,the user can change the group title user name password URL notes expiration date and attachment file His changes are saved by clicking OK 
+InformationSystem,The user can create an exact copy of an entry This can be done by selecting an entry and clicking duplicate entry When this is done the new entry is added in the same group were the first was 
+InformationSystem,The software will be used to search multiple web sites for streaming videos and torrents and return these results to the user 
+InformationSystem,Searching software will be a system that uses an active internet connection to search multiple websites for streaming videos or torrents 
+InformationSystem,The system will be used to aid the user when trying to locate a specific video or genre of video 
+InformationSystem,The system will help them reduce searching time through various different websites by searching all these websites with just one query 
+InformationSystem,The system provides tools to help when navigating through search results which will save time and effort 
+InformationSystem,The software aims to help the user by providing a simple interface and a more efficient way of finding the video they require It will also provide the user with various options and tools to help make their search more relevant to the content that they need 
+InformationSystem,The system will contain databases of the different websites that will be used within the search These databases can be easily updated to provide a wider searching range 
+InformationSystem,The results will be divided into the types that were
+InformationSystem,specified using different tabs and then the results will be orderable by different categories such as name size site etc 
+InformationSystem,The user will have the option to filter out videos containing certain content depending on age restrictions for example adult content 
+InformationSystem,The user will give a search term that will search through a database of compatible torrent websites that are added by the development team The results of this search will be displayed as web links in a tab on the program s main window This is one of the main features of the software and therefore has a high priority for development 
+InformationSystem,Query will retrieve the no of seed and peers size of the file date posted and a link to the webpage itself 
+InformationSystem,If no results are found on a search it will display a message No results were found for this search 
+InformationSystem,Results will be arranged in size date alphabetical order by clicking on the column headers 
+health,"This 23-year-old white female presents with complaint of allergies. She used to have allergies when she lived in Seattle but she thinks they are worse here. In the past, she has tried Claritin, and Zyrtec."
+health,Her throat was mildly erythematous without exudate. Nasal mucosa was erythematous and swollen. Only clear drainage was seen. TMs were clear.
+health,Her only medication currently is Ortho Tri-Cyclen and the Allegra.
+health,A 34-year-old male presents today self-referred at the recommendation of Emergency Room physicians and his nephrologist to pursue further allergy evaluation and treatment.
+health,the medical records regarding his allergic reaction treatment at ABC Medical Center for further details and studies.
+health,"the patient states he has some problems with tolerating grass allergies, environmental and inhalant allergies occasionally, but has never had anaphylactic or angioedema reactions. He is taking atenolol for blood pressure control. "
+health,"The patient is healthy appearing; alert and oriented to person, place and time; responds appropriately; in no acute distress."
+health,The oral mucosa appears healthy. Dental hygiene is maintained well. No oropharyngeal masses or lesions noted. No postnasal drip noted.
+health,"RAST allergy testing for both food and environmental allergies was performed, and we will get the results back to the patient with further recommendations to follow."
+health,"I would recommend the patient stopping any further use of cephalosporin antibiotics, which may be the cause of his allergic reaction, and I would consider this an allergy."
+health,An EpiPen was also prescribed in the event of acute angioedema or allergic reaction or sensation of impending allergic reaction and he is aware he needs to proceed directly to the emergency room for further evaluation and treatment recommendations after administration of an EpiPen.
+health,"This 5-year-old male presents to Children's Hospital Emergency Department by the mother with ""have asthma."""
+health,"This is a well-developed male who is cooperative, alert, active with oxygen by facemask."
+health,"Head is atraumatic and normocephalic. Pupils are equal, round, and reactive to light. Extraocular motions are intact and conjugate. Clear TMs, nose, and oropharynx."
+health,"The differential entertained on this patient includes reactive airways disease, viral syndrome, and foreign body pneumonia."
+health,"He is evaluated in the emergency department with continuous high-dose albuterol, Decadron by mouth, pulse oximetry, and close observation."
+health,"he has continued tight wheezes with saturations 99%, but ED sats are 92% with coughing spells. Based on the above, the hospitalist was consulted and accepts this patient for admission to the hospital with the working diagnosis of respiratory distress and asthma."
+health,"she is a pleasant 50-year-old female who states she started having severe sinusitis about two to three months ago with facial discomfort, nasal congestion, eye pain, and postnasal drip symptoms."
+health,"She states she really has sinus problems, but this infection has been rather severe and she notes she has not had much improvement with antibiotics."
+health,"She also has noted that she is having some problems with her balance and possible hearing loss or at least ear popping and fullness. Her audiogram today demonstrated mild high frequency sensorineural hearing loss, normal tympanometry, and normal speech discrimination."
+health,"The patient used to smoke cigarettes for about 20 years, one-half pack a day. "
+health,"The patient is healthy appearing; alert and oriented to person, place and time; responds appropriately; in no acute distress."
+health,"Pupils are equal, round and reactive to light and accommodation bilaterally. Extraocular movements are intact bilaterally. No nystagmus."
+health,"During Hallpike examination, the patient did not become dizzy until she would be placed back into sitting in the upright position."
+health,"the patient did subjectively report dizziness, which was repeated twice. No evidence of any orthostatic hypotension was noted during the exam. "
+health,No signs of middle ear effusion or ear canal inflammation. The patient appears congested. Turbinate hypertrophy is noted.
+health,"There are no signs of any acute sinusitis. Septum is midline, slightly deviated to the left."
+health,There is clear postnasal drip. Oral hygiene is good. No masses or lesions noted. Both vocal cords move well to midline.
+health,"Probable increasing problems with allergic rhinitis and chronic sinusitis, both contributing to the patient's symptoms."
+health,"The patient was given instruction on use of nasal saline irrigation to be used twice daily and Clarinex 5 mg daily was recommended. After the patients' ENG examination, we will see the patient back for further evaluation and treatment recommendations."
+health,"I informed the patient if there are any acute changes or problems with regards to her balance or any other acute changes, which she attributes associated with her dizziness, she most likely should pursue an emergent visit to the emergency room."
+health,RAST allergy testing was ordered for food allergy evaluation
+health,"The patient will follow up after RAST allergy testing for further treatment recommendations. At this point, no changes in her medication were prescribed until her followup visit."
+health,Likely this is secondary to urinary tract infection but we will repeat a UA to document clearing. She does have some frequent dysuria but is not having it currently.
+health,We will notify the patient of results. If normal we will go back to yearly Pap smear. She is scheduled for screening mammogram and instructed on monthly self-breast exam techniques. Recommend she get 1200 mg of calcium and 400 U of vitamin D a day.
+health,"he was sent to the hospital, he had a fever of 102. Subsequently, the patient was evaluated and based on the criteria, he was started on high dose of aspirin and IVIG."
+health,"Cardiology for echo followup in 4 to 6 weeks and instructed not to give any vaccine in less than 11 months because of IVIG, all the live virus vaccine, and if he gets any rashes, any fevers, should go to primary care doctor as soon as possible."
+health,The structures are within normal limits. Examination of the pelvic area indicates the victim had not given birth and was not pregnant at the time of death. Vaginal fluid samples are removed for analysis. 
+health,"Injury appears to have resulted from a single blow administered to the posterior of the head, delivered at an approximate 90� angle to the occipital bone."
+health,The skin is intact and shows no evidence of trauma except for medical intervention. The scalp hair is blond and measures up to 5 inches in length in the frontal area and up to 19 inches in length in the back and on top of the head. 
+health,The neck is symmetrical and shows no masses or injuries. The trachea is in the midline. The shoulders are symmetrical and are free of scars.
+health,The upper extremities are symmetrical and have no injuries. The fingernails are long and clean. There is a linear 1/2 inch scar on the anterior right forearm.
+health,"The body was opened with the usual Y incision. The breast tissues, when incised, revealed bilateral implants, each containing 700ml of clear fluid."
+health,The muscles of the chest and abdominal wall are normal in color and consistency. The lungs are neither hyperinflated nor atelectatic when the pleural cavities are opened. 
+health,The heart and great vessels contain dark red liquid blood and little postmortem clots. The heart weighs 305 grams
+health,"The epicardial surface has a normal amount of glistening, yellow adipose tissue. The coronary arteries are free of atherosclerosis."
+health,The cut surfaces of the brown myocardium show no evidence of hemorrhage or necrosis.
+health,"The kidneys are of similar size and shape and weigh 160 grams and 190 grams, right and left, respectively."
+health,The adrenal glands have a normal configuration with the golden yellow cortices well demarcated from the underlying medullae and there is no evidence of hemorrhage.
+health,"Dissection of the buttocks reveals diffuse subcutaneous scarring and fat necrosis of the adipose tissue bilaterally with three subcutaneous cystic structures containing light yellow, clear, thick liquid within the left buttock."
+health,"I discussed these results with the patient, and he had been relating to me that he was having rest anginal symptoms, as well as nocturnal anginal symptoms, and especially given the severity of the mid left anterior descending lesion, with a markedly abnormal stress test,"
+health,"Other medical history is inclusive for obstructive sleep apnea for which he is unable to tolerate positive pressure ventilation, GERD, arthritis"
+health,"The patient and his wife have requested and are agreeable with transfer to Medical Center, and we are enclosing the CD ROM of his images."
+health,Atherosclerotic coronary vascular disease with old myocardial infarction.
+health,Patient will be seen again in my office in four weeks.
+health,The patient is a 43-year-old male who was recently discharged from our care on the 1/13/06 when he presented for shortness of breath.
+health,He has a past history of known hyperthyroidism since 1992 and a more recent history of atrial fibrillation and congestive cardiac failure with an ejection fraction of 20%-25%.
+health,The main cause for his shortness of breath was believed to be due to atrial fibrillation secondary to hyperthyroidism in a setting with congestive cardiac failure.
+health,"During his hospital stay, he was commenced on metoprolol for rate control, and given that he had atrial fibrillation, he was also started on warfarin, which his INR has been followed up by the Homeless Clinic."
+health,"While in the hospital, it was also noted that he abused cigarettes and cocaine, and we advised strongly against this given the condition of his heart. It was also noted that he had elevated liver function tests, which an ultrasound was normal, but his hepatitis panel was pending. "
+health,"The patient has also been attending the Homeless Clinic since discharge from the hospital, where he has been receiving quality care and they have been looking after every aspect of his health, including his hyperthyroidism"
+health,"A Digoxin level has not been repeated since discharge, and we feel that this should be followed up. We have also increased his lisinopril to 5 mg daily, but the patient did not receive his script upon departing our clinic."
+health,"The patient returns to our office today because of continued problems with her headaches. She was started on Zonegran on her last visit and she states that initially she titrated upto 100 mg q.h.s. Initially felt that the Zonegran helped, but then the pain in her head returned."
+health,We made an appointment in endocrine clinic today for a counseling in terms of better diabetes control and she is responsible for trying to get her referral from her primary care physician to go for this consult.
+health,There must be a Sample template for a normal male multisystem exam.
+health,"The patient was oriented to time, place and person. The patient's judgment and insight appeared to be normal."
+health,There must be a Sample template for a normal female multisystem exam.
